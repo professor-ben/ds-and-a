@@ -6,4 +6,3 @@ is free to use any piece of code in this repository for personal or commercial
 use.
 
 ## Sorting and Searching
-...
