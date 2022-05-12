@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
-'''
-A merge sort's performance is not affected by the degree to which the input is
-sorted. The sort will first split the input into two parts recursively until
-the sizes of the "left" and "right" lists are equal. These lists are then
-merged into a sorted list through the use of a while loop. Additional while
-loops then append any unused elements of "left" and "right" before returning
-the sorted list.
-'''
 def MergeSort(list):
+    '''
+    A merge sort's performance is not affected by the degree to which the
+    input is sorted. The sort will first split the input into two parts
+    recursively until the sizes of the "left" and "right" lists are equal.
+    These lists are then merged into a sorted list through the use of a while
+    loop. Additional while loops then append any unused elements of "left" and
+    "right" before returning the sorted list.
+    '''
     # Do not run code on list of length < 1
     if len(list) > 1:
         mid = len(list) // 2

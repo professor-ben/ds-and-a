@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-'''
-An insertion sort loops through each element in a list, and starting with the
-first element, compares it to the second element. If the second element is
-smaller, the current element is moved into its position. This continues
-through the third, fourth, etc. elements of the list until all are sorted.
-'''
 def InsertionSort(list):
+    '''
+    An insertion sort loops through each element in a list, and starting with
+    the first element, compares it to the second element. If the second element
+    is smaller, the current element is moved into its position. This continues
+    through the third, fourth, etc. elements of the list until all are sorted.
+    '''
     # First pass once for each element in list
     for i in range(1, len(list)):
         # j at index below i

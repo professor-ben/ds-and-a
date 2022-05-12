@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-'''
-A selection sort looks at the length of a list and moves the largest element
-of the list to the top index on every pass through. After moving any element,
-the slot to be filled is moved one closer to the beginning.
-'''
 def SelectionSort(list):
+    '''
+    A selection sort looks at the length of a list and moves the largest
+    element of the list to the top index on every pass through. After moving
+    any element, the slot to be filled is moved one closer to the beginning.
+    '''
     # In outer pass, move backward through indices of list
     for fill_slot in range(len(list) - 1, 0, -1):
         # Location of max value in list

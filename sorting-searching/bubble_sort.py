@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
-'''
-A bubble sort is the most rudimentary type of sorting algorithm. It loops
-through each index of the input list in descending order and swaps any items
-through that index that are out of order. On each iteration, the greatest
-number in the input list is moved all the way to the right. This continues
-until there is only the leftmost (smallest) element in the list.
-'''
+
 def BubbleSort(list):
+    '''
+    A bubble sort is the most rudimentary type of sorting algorithm. It loops
+    through each index of the input list in descending order and swaps any
+    items through that index that are out of order. On each iteration, the
+    greatest number in the input list is moved all the way to the right. This
+    continues until there is only the leftmost (smallest) element in the list.
+    '''
     # The index of the last element is one less than the list's length
     lastElementIndex = len(list) - 1
     

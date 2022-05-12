@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-'''
-A shell sort ignores immediate neighbors and instead focuses on elements at a
-fixed distance from one another. In the first iteration, elements at a fixed
-distance are swapped if the former is larger than the latter. The distance is
-then decreased and elements swapped until the distance hits 0 and the list is
-sorted.
-'''
 def ShellSort(list):
+    '''
+    A shell sort ignores immediate neighbors and instead focuses on elements
+    at a fixed distance from one another. In the first iteration, elements at
+    a fixed distance are swapped if the former is larger than the latter. The
+    distance is then decreased and elements swapped until the distance hits 0
+    and the list is sorted.
+    '''
     # Start sorting with a fixed distance of half the list's length
     distance = len(list) // 2
 

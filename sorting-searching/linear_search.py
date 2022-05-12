@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-'''
-A linear search is the simplest type of search. A loop checks every index,
-starting at 0, until the item is found or the end of the list is reached.
-'''
+
 def LinearSearch(list, item):
+    '''
+    A linear search is the simplest type of search. A loop checks every index,
+    starting at 0, until the item is found or the end of the list is reached.
+    '''
     index = 0
     found = False
     
